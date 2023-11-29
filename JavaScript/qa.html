@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button</title>
+    <style>
+        
+        .off {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<button onclick="toggle()">Click me!</button>
+<button id="toggleButton" class="off" >OFF</button>
+
+<script>
+    var isOn = false;
+
+    function toggle() {
+        var button = document.getElementById("toggleButton");
+
+        if (isOn) {
+            button.innerHTML = "OFF";
+          
+        } else {
+            button.innerHTML = "ON";
+         
+        }
+
+        isOn = !isOn;
+    }
+</script>
+
+</body>
+</html>
+

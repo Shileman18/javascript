@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .bg-primary{
+            
+background: #16ca2e;
+border: 2px solid red;
+}
+
+    </style>
+</head>
+<body>
+     <div name="div_1" id="main1"></div>
+    <!-- <div name="div_2" id="main2"></div> -->
+
+
+    
+    <script>
+    //    let vk= document.querySelector('#main1')
+    // //    console.log(vk)
+    // //    vk[0].classList.add('bg-primary')
+    // //    vk[1].classList.add('bg-secon')
+    // //    vk[2].classList.add('bg-seco')
+    // //    vk[3].classList.add('bg-sec')
+    // //    vk[0].innerHTML='<h1>good day</h1>'
+    // //    console.log(vk[0].innerText)
+    // //   let p1=document.getElementsByTagName('h1')
+    // //    p1[0].style.color='#fff'
+    //     let data=''
+    // for(let i=0; i<10; i++){
+    //     data+=`<div class="bg-primary" id="main2"></div>`
+    //     vk.innerHTML=data
+    // }
+
+    let pk=document.querySelector('#main1')
+        let data=[`WELL COME TO JS1`,`WELL COME TO JS2`,`WELL COME TO JS3`]
+     for(let i=0; i<3; i++){
+    let title= document.createElement('h1')
+    title.style.textAlign= 'center'
+    title.innerText=data[i]
+    pk.appendChild(title)
+    // document.body.appendChild(title)
+    console.log(title)
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+sessionStorage.setItem('UserName','Suleman')
+sessionStorage.setItem('Password','2345676579')
+const UserName = sessionStorage.getItem('UserName')
+const Password = sessionStorage.getItem('Password')
+console.log(UserName)
+console.log( Password)

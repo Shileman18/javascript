@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+ </head>
+ <style>
+
+  
+    .chessboard1 {
+  width: 400px;
+  height: 400px;
+   
+  display: grid;
+  grid-template-columns:repeat(8, 1fr);
+  grid-template-rows:repeat(8, 1fr);
+ 
+}
+
+.black {
+  background-color: #111310;
+  
+}
+
+.green {
+  background-color:rgb(103, 222, 19);
+}
+
+  </style>
+<body> 
+  
+  <div class="chessboard1" id="chessboard"></div>
+  <script>
+    const chess = document.getElementById('chessboard');
+  
+for (let row = 0; row < 8; row++) {
+  for (let col = 0; col < 8; col++) {
+    const square = document.createElement('div');
+   
+   if((row+col)%2==0)
+   {
+    square.className='black'
+    chess.appendChild(square);
+
+   }else{
+    square.className='green'
+  chess.appendChild(square);
+}
+  }
+}
+  </script>
+ 
+  
+ 
+</body>
+</html>
