@@ -2,7 +2,7 @@ import React from "react";
 import "./login1.css"
 
 
-function App(){
+function Register(){
 
 
     return(
@@ -16,20 +16,20 @@ function App(){
             <form>
             <div className="form-group  mb-2">
                 <label htmlFor="email" className="form-label">Email*</label>
-                <input type="email" className="form-control" placeholder="Email"></input>
+                <input type="email" className="form-control mb-3" placeholder="Email"></input>
             </div>
             <div className="form-group mb-2">
                 <label htmlFor="password" className="form-label">Password*</label>
-                <input type="password" className="form-control" placeholder="Password"></input>
+                <input type="password" className="form-control mb-3" placeholder="Password"></input>
             </div>
             <div className="form-group mb-2">
                 <label htmlFor="password" className="form-label">Repeat Password*</label>
-                <input type="password" className="form-control" placeholder="Confirm Password"></input>
+                <input type="password" className="form-control mb-3" placeholder="Confirm Password"></input>
             </div>
-            <button type="submit" className="btn  mt-2 w-100">Register</button>
+            <button type="submit" className="btn mb-3  mt-2 w-100">Register</button>
             <div className="form-group  mb-2">
                <div className=" text-center ">
-                Already have an account?<a href="/" className="log">  login </a>
+                Already have an account?<a href="/Login" className="log"> login </a>
                </div>
             </div>
                 </form> 
@@ -43,4 +43,4 @@ function App(){
 
 }
 
-export default App
+export default Register

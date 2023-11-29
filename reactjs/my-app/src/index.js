@@ -25,10 +25,8 @@ import './index.css';
 
 // import App from './Bootstap/rct-btstrp';
 
-// import App from './Login1';
-// import Login from './login2';
-import App from './Router/App';
-
+// import App from './Router/App';
+import App from './login/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
