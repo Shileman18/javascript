@@ -24,8 +24,8 @@ import './index.css';
 // import App from './Router/Route';
 
 // import App from './Bootstap/rct-btstrp';
-
-// import App from './Router/App';
+// import LoginForm from './Practice';
+// import  App from './Router/App';
 import App from './login/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

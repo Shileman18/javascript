@@ -16,20 +16,20 @@ function Register(){
             <form>
             <div className="form-group  mb-2">
                 <label htmlFor="email" className="form-label">Email*</label>
-                <input type="email" className="form-control mb-3" placeholder="Email"></input>
+                <input id="email" type="email" className="form-control mb-3 p-2" placeholder="Email"></input>
             </div>
             <div className="form-group mb-2">
                 <label htmlFor="password" className="form-label">Password*</label>
-                <input type="password" className="form-control mb-3" placeholder="Password"></input>
+                <input id="password" type="password" className="form-control p-2 mb-3" placeholder="Password"></input>
             </div>
             <div className="form-group mb-2">
-                <label htmlFor="password" className="form-label">Repeat Password*</label>
-                <input type="password" className="form-control mb-3" placeholder="Confirm Password"></input>
+                <label htmlFor="Repeatpassword" className="form-label">Repeat Password*</label>
+                <input id="Repeatpassword"  type="password" className="form-control mb-3 p-2" placeholder="Confirm Password"></input>
             </div>
-            <button type="submit" className="btn mb-3  mt-2 w-100">Register</button>
+            <button type="submit" className="btn mb-3 p-2 mt-2 w-100">Register</button>
             <div className="form-group  mb-2">
-               <div className=" text-center ">
-                Already have an account?<a href="/Login" className="log"> login </a>
+               <div className=" text-center mb-3 ">
+                Already have an account?<a href="/Login" className="log "> login </a>
                </div>
             </div>
                 </form> 
