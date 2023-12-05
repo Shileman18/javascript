@@ -6,8 +6,8 @@ function Register(){
 
 
     return(
-        <div className="container d-flex align-items-center justify-content-center w-100">
-         <div className="image">  <img src="./images/SmartHr_Logo.png" alt=""/>
+     <div className="container d-flex align-items-center justify-content-center w-100">
+        <div className="image">  <img src="./images/SmartHr_Logo.png" alt=""/>
             <div className="login rounded mt-4">
           
             <h2 className="mb-1 text-center">Register
@@ -32,10 +32,10 @@ function Register(){
                 Already have an account?<a href="/Login" className="log "> login </a>
                </div>
             </div>
-                </form> 
-            </div>
+            </form> 
             </div>
         </div>
+    </div>
 
 
     )

@@ -26,12 +26,15 @@ import './index.css';
 // import App from './Bootstap/rct-btstrp';
 // import LoginForm from './Practice';
 // import  App from './Router/App';
-import App from './login/App';
+// import App from './login/App';
+import Employee from './Employee-profile/Employee';
+// import Practice from './Employee-profile/Practice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
- <App/>
+ <Employee/>
+
 );
 
 
