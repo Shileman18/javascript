@@ -76,19 +76,22 @@ function Employee() {
           <div className="mb-4">Dashboard / Profile</div>
 
           <div className="card">
-            <div className="card-body ">
-              <div className="row  ">
-                <div className="col">
+            <div className="card-body d-flex justify-content-between">
+              <div className="row w-100">
+              <div className="edit  ">
+                    <MdOutlineEdit className="float-end " />
+                  </div>
+                <div className="col ">
                   <div className="">
                     <img
                       src="./images/download.png"
                       alt="ha"
                       className="rounded-circle"
-                      width={100}
+                      width={120}
                     />
                   </div>
                 </div>
-                <div className="col me-5">
+                <div className="col">
                   <div className="">
                     <h4>John Deo</h4>
                     <p style={{ color: "#a19c9c" }}>UI/UX Design Team</p>
@@ -130,7 +133,7 @@ function Employee() {
                     </p>
                   </div>
                 </div>
-                <div className="col me-5">
+                <div className="col">
                   <div className="">
                     <p>
                       <a href="/">8987463556</a>
@@ -154,10 +157,8 @@ function Employee() {
                     </p>
                   </div>
                 </div>
-                <div className="col ms-5">
-                  <div className="edit">
-                    <MdOutlineEdit />
-                  </div>
+                <div className="col">
+                 
                 </div>
               </div>
             </div>
@@ -167,7 +168,7 @@ function Employee() {
             <div class="card-body  ">
               <div className="row">
                 <div className="col">
-                  <div className="d-flex">
+                  <div className="d-flex flex-wrap">
                     <p className="me-3">
                       <b>
                         <u style={{ color: "red" }}>Profile</u>
@@ -355,7 +356,7 @@ function Employee() {
                   </div>
                   <hr></hr>
                   <div>
-                    <table class="table">
+                    <table class="table table-responsive d-flex flex-wrap">
                       <thead>
                         <tr>
                           <th scope="col">Name</th>
